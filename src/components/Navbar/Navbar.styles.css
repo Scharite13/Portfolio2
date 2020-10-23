@@ -1,0 +1,90 @@
+.navbar-container {
+  display: flex;
+  background-color: darkgray;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  padding: 20px;
+  color: white;
+  font-weight: 700;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  color: white;
+}
+
+.nav-list-item {
+  border: solid white 2px;
+  margin: 0.5rem 0.75rem;
+  padding: 1rem;
+}
+
+.nav-list-item:hover {
+  background-color: lightgreen;
+  border-radius: 4px;
+  transition: all 0.2s ease-out;
+}
+
+.fa-bars {
+  color: white;
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-container {
+    position: relative;
+  }
+
+  .nav-list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 425px;
+    position: absolute;
+    top: 58px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+
+  .nav-list.active {
+    background-color: lightgrey;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+
+  .nav-list-item {
+    text-align: center;
+    padding: 2rem;
+    width: auto;
+    display: table;
+  }
+  .nav-list-item:hover {
+    background-color: lightgreen;
+    border-radius: 0;
+  }
+
+  .menu-icon {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+
+  .fa-times {
+    color: white;
+  }
+}
