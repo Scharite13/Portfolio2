@@ -1,0 +1,17 @@
+.about-me-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-me {
+  padding: 2rem;
+  margin: 2rem;
+  border: dotted 1px white;
+  width: 50%;
+}
+
+.profile-image {
+  height: 100px;
+  width: 50%;
+}

@@ -1,6 +1,6 @@
 .navbar-container {
   display: flex;
-  background-color: darkgray;
+  background-color: rgb(16, 15, 20);
   align-items: center;
   justify-content: space-between;
 }
@@ -8,7 +8,7 @@
 .logo {
   display: flex;
   padding: 20px;
-  color: white;
+  color: rgb(222, 219, 233);
   font-weight: 700;
 }
 
@@ -16,23 +16,23 @@
   display: flex;
   flex-direction: row;
   list-style: none;
-  color: white;
+  color: rgb(222, 219, 233);
 }
 
 .nav-list-item {
-  border: solid white 2px;
+  border: solid rgb(222, 219, 233) 2px;
   margin: 0.5rem 0.75rem;
   padding: 1rem;
 }
 
 .nav-list-item:hover {
-  background-color: lightgreen;
+  background-color: rgb(51, 94, 51);
   border-radius: 4px;
   transition: all 0.2s ease-out;
 }
 
 .fa-bars {
-  color: white;
+  color: rgb(222, 219, 233);
 }
 
 .menu-icon {
@@ -57,7 +57,7 @@
   }
 
   .nav-list.active {
-    background-color: lightgrey;
+    background-color: rgb(30, 24, 32);
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
@@ -70,7 +70,7 @@
     display: table;
   }
   .nav-list-item:hover {
-    background-color: lightgreen;
+    background-color: rgb(51, 94, 51);
     border-radius: 0;
   }
 
@@ -85,6 +85,6 @@
   }
 
   .fa-times {
-    color: white;
+    color: rgb(222, 219, 233);
   }
 }

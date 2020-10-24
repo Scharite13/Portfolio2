@@ -1,7 +1,7 @@
 .hero-image {
   display: flex;
   background-image: url('./Mountain-Background.jpg');
-  background-color: white;
+  background-color: whitergb(222, 219, 233);
   height: 400px;
   background-attachment: fixed;
   background-position: center;
@@ -13,5 +13,5 @@
 }
 
 .hero-text {
-  color: white;
+  color: rgb(222, 219, 233);
 }
