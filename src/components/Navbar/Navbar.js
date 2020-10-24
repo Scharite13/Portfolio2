@@ -22,6 +22,7 @@ class NavBar extends Component {
                <i className={ this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
                </div>
                <ul className= {this.state.clicked ? 'nav-list active' : 'nav-list'}>
+                   <li className='nav-list-item'>Home</li>
                    <li className='nav-list-item'>About me</li>
                    <li className='nav-list-item'>Resume</li>
                    <li className='nav-list-item'>Projects</li>
