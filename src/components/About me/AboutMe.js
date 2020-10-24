@@ -6,7 +6,7 @@ class AboutMe extends Component {
         return (
             <div className="about-me-container">
                 <div className="profile-image">
-                    <img src="DerekProfile.png" alt="Profile" width="100px" height="100px" />
+                    <img src="profile.jpg" alt="Profile" width="100px" height="100px" />
                 </div>
                 <p className="about-me">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vulputate nibh libero, 
