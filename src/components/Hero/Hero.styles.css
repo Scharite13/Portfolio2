@@ -1,8 +1,8 @@
 .hero-image {
   display: flex;
-  background-image: url('./Mountain-Background.jpg');
+  background-image: url('./rsz_1mountain_background.jpg');
   background-color: whitergb(222, 219, 233);
-  height: 400px;
+  height: 768px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;

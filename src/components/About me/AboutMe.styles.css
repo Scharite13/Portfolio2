@@ -1,17 +1,26 @@
 .about-me-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 250px;
+  justify-content: space-evenly;
 }
 
 .about-me {
   padding: 2rem;
   margin: 2rem;
-  border: dotted 1px white;
-  width: 50%;
+  justify-self: center;
 }
 
-.profile-image {
-  height: 100px;
-  width: 50%;
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.image {
+  margin: 3rem;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 830px) {
 }

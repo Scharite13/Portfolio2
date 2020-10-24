@@ -14,6 +14,7 @@ class NavBar extends Component {
     
     render(){
         return (
+        <div className="parent">
             <div className='navbar-container'>
                <div className='logo'>
                     Derek Scharite
@@ -29,6 +30,7 @@ class NavBar extends Component {
                    <li className='nav-list-item'>Contact</li>
                </ul>
             </div>
+        </div>
         )
     }
 }

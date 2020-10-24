@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import './AboutMe.styles.css';
+import profile from './profile.jpg';
 
 class AboutMe extends Component {
     render(){
         return (
             <div className="about-me-container">
-                <div className="profile-image">
-                    <img src="profile.jpg" alt="Profile" width="100px" height="100px" />
+                <div className="image-container">
+                <img className="image" src={profile} alt="Profile" width="250px" height="250px" />
                 </div>
                 <p className="about-me">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vulputate nibh libero, 
