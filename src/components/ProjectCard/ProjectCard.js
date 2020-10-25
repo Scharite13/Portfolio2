@@ -9,7 +9,7 @@ class ProjectCard extends Component{
                 <div className="project-image"></div>
                 <h1 className="project-title">{this.props.title}</h1>
                 <p className="project-description">{this.props.description}</p>
-                <button className="project-link"></button>
+                <button className="project-link" href={this.props.link}>{this.props.title}</button>
             </div>
         )
     }
