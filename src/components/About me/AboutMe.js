@@ -5,7 +5,7 @@ import profile from './profile.jpg';
 class AboutMe extends Component {
     render(){
         return (
-            <div className="about-me-container">
+            <div id="about-me" className="about-me-container">
                 <div className="image-container">
                 <img className="image" src={profile} alt="Profile" width="250px" height="250px" />
                 </div>

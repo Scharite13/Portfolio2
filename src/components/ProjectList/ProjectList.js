@@ -7,7 +7,7 @@ import './ProjectList.styles.css';
 class ProjectList extends Component  {
     render(){
         return(
-            <div className="project-container">
+            <div id="projects" className="project-container">
             {Projects.map((project,index)=>{
                 return(
                 <ProjectCard 

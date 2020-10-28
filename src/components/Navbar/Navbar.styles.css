@@ -30,7 +30,8 @@
 .nav-list-item {
   border: solid rgb(222, 219, 233) 2px;
   margin: 0.5rem 0.75rem;
-  padding: 1rem;
+  width: 7rem;
+  cursor: pointer;
 }
 
 .nav-list-item:hover {
@@ -47,7 +48,18 @@
   display: none;
 }
 
-@media screen and (max-width: 768px) {
+a:link,
+a:visited {
+  color: rgb(222, 219, 233);
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 2rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 835px) {
   .navbar-container {
     position: relative;
   }
@@ -56,7 +68,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 515px;
+    height: 265px;
     position: absolute;
     top: 58px;
     left: -100%;
@@ -71,12 +83,21 @@
     transition: all 0.5s ease;
   }
 
+  .link-close {
+    display: hidden;
+  }
+
   .nav-list-item {
     text-align: center;
-    padding: 2rem;
     width: auto;
+    height: auto;
     display: table;
   }
+
+  a {
+    line-height: 5rem;
+  }
+
   .nav-list-item:hover {
     background-color: rgb(51, 94, 51);
     border-radius: 0;

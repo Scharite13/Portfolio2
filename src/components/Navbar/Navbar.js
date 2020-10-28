@@ -23,11 +23,11 @@ class NavBar extends Component {
                <i className={ this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
                </div>
                <ul className= {this.state.clicked ? 'nav-list active' : 'nav-list'}>
-                   <li className='nav-list-item'>Home</li>
-                   <li className='nav-list-item'>About me</li>
-                   <li className='nav-list-item'>Resume</li>
-                   <li className='nav-list-item'>Projects</li>
-                   <li className='nav-list-item'>Contact</li>
+                   <li className='nav-list-item'><a href="#hero">Home</a></li>
+                   <li className='nav-list-item'><a href="#about-me">About me</a></li>
+                   <li className='nav-list-item'><a href="#resume">Resume</a></li>
+                   <li className='nav-list-item'><a href="#projects">Projects</a></li>
+                   <li className='nav-list-item'><a href="#contact">Contact</a></li>
                </ul>
             </div>
         </div>
