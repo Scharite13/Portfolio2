@@ -6,6 +6,8 @@
 }
 
 .about-me {
+  max-width: 100%;
+  height: auto;
   padding: 2rem;
   margin: 2rem;
   justify-self: center;
@@ -18,9 +20,14 @@
 }
 
 .image {
+  max-width: 100%;
+  height: auto;
   margin: 3rem;
   border-radius: 50%;
 }
 
 @media screen and (max-width: 830px) {
+  .about-me-container {
+    grid-template-columns: 100%;
+  }
 }
