@@ -17,7 +17,7 @@ class NavBar extends Component {
         <div className="parent">
             <div className='navbar-container'>
                <div className='logo'>
-                    Derek Scharite
+                    <a href="#hero">Derek Scharite</a>
                </div> 
                <div className='menu-icon' onClick={this.handleClick}>
                <i className={ this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>

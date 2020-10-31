@@ -26,7 +26,7 @@
   border-radius: 50%;
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 1080px) {
   .about-me-container {
     grid-template-columns: 100%;
   }

@@ -14,9 +14,18 @@
 }
 
 .project-description {
+  text-align: center;
   padding: 1rem;
 }
 
 .project-link {
+  background-color: #434a55;
+  color: rgb(222, 219, 233);
   padding: 1rem;
+  font-size: 20px;
+}
+
+.project-link:hover {
+  background-color: #3c475b;
+  cursor: pointer;
 }

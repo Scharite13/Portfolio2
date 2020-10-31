@@ -1,14 +1,23 @@
 .contact-list {
   display: flex;
   justify-content: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  padding: 0rem 20rem;
 }
 
 .contact {
   text-align: center;
   font-size: 50px;
+  padding: 20px;
 }
 
 .contact-link {
-  font-size: 50px;
+  font-size: 35px;
+  padding: 20px;
+}
+
+@media screen and (max-width: 805px) {
+  .contact-list {
+    padding: 0 11rem;
+  }
 }
