@@ -4,7 +4,7 @@ import './Contact.styles.css';
 class Contact extends Component{
     render(){
         return(
-            <div id="contact">
+            <div>
                 <h2 className="contact">Contact</h2>
                 <div className="contact-list">
                     <div><a href="mailto:DerekScharite@gmail.com"><i className="far fa-envelope contact-link"></i></a></div>
